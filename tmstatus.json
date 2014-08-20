@@ -1,0 +1,6 @@
+{
+  "name": "tmstatus",
+  "description" : "Displays current Time Machine process status discreetly.",
+  "author" : "Adrian Rudman",
+  "email" : "a.rudman@binarylight.com.au"
+}
