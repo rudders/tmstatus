@@ -71,7 +71,7 @@ isRunning: (data) ->
 	return (if data.match(/Running = \d;/)[0].match(/(\d+)/)[0] is '1' then true else false)
 	
 percentComplete: (data) ->
-	return Math.round(Number(data.match(/Percent = \"?([0-9.e-]*)\D/)[1]) * 100)
+	return Math.round(Number(data.match?(/Percent = \"?([0-9.e-]*)\D/)[1]) * 100)
 	
 ###
 There are a few patterns here to deal with.
